@@ -1,0 +1,8 @@
+.div{text-align: center;background-color:rebeccapurple;margin: 0px 300px 0px 300px;padding: 10px 0px 10px 0px;border-radius: 10px;color: white;}
+.nome{margin: 0px 0px 0px 100px;border-radius: 10px; border: 2px solid rgb(113, 0, 113); color: purple;}
+.email{margin: 0px 0px 0px 165px;border-radius: 10px; border: 2px solid rgb(113, 0, 113);color: purple}
+.end{margin: 0px 0px 0px 145px;border-radius: 10px; border: 2px solid rgb(113, 0, 113);color: purple}
+.cpf{margin: 0px 0px 0px 170px;border-radius: 10px;border: 2px solid rgb(113, 0, 113);color: purple}
+.but{border-radius: 5px; border: 2px solid rgb(113, 0, 113); background-color: rgb(113, 0, 113);color: white;}
+.img1{border-radius: 10px;}
+.img2{border-radius: 10px;}
