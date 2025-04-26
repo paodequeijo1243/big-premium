@@ -1,8 +1,94 @@
-.div{text-align: center;background-color:rebeccapurple;margin: 0px 300px 0px 300px;padding: 10px 0px 10px 0px;border-radius: 10px;color: white;}
-.nome{margin: 0px 0px 0px 100px;border-radius: 10px; border: 2px solid rgb(113, 0, 113); color: purple;}
-.email{margin: 0px 0px 0px 165px;border-radius: 10px; border: 2px solid rgb(113, 0, 113);color: purple}
-.end{margin: 0px 0px 0px 145px;border-radius: 10px; border: 2px solid rgb(113, 0, 113);color: purple}
-.cpf{margin: 0px 0px 0px 170px;border-radius: 10px;border: 2px solid rgb(113, 0, 113);color: purple}
-.but{border-radius: 5px; border: 2px solid rgb(113, 0, 113); background-color: rgb(113, 0, 113);color: white;}
-.img1{border-radius: 10px;}
-.img2{border-radius: 10px;}
+.divinc{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.divgeral{
+    background-color:slateblue;
+    margin: 0px 100px 0px 100px;
+border-radius: 20px;}
+.divnome{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.divemail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.endereço{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.divcpf{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    border-radius: 10px;
+flex-wrap: wrap;
+}
+.img2{
+    border-radius: 10px;
+}
+.divbutao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.but{
+    border-radius: 10px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.divresto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.divimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+#email{
+    margin: 0px 0px 0px 65px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+#endereço{
+    margin: 0px 0px 0px 40px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+#cpf{
+    margin: 0px 0px 0px 65px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+#nome{
+    border-radius: 10px;
+    border-color:blueviolet;
+}
+.paragrafo1{
+    font-size: 20px;
+    font-weight: 900;
+}
+.paragrafo2{
+    font-size: 20px;
+    font-weight: 900;
+}
