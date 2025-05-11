@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(119, 0, 143);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .divinc{   
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +10,7 @@
     align-items: center;
 }
 .divgeral{
-    background-color:slateblue;
+    background-color:rgba(105, 3, 100, 0.54);
     margin: 0px 100px 0px 100px;
 border-radius: 20px;}
 .divnome{
@@ -39,10 +43,14 @@ border-radius: 20px;}
 }
 .img1{
     border-radius: 10px;
-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 168px;
+    margin: 0px 10px 0px 0px;
 }
 .img2{
     border-radius: 10px;
+    margin: 0px 0px 0px 10px ;
 }
 .divbutao{
     display: flex;
@@ -53,6 +61,13 @@ flex-wrap: wrap;
     border-radius: 10px;
     background-color: blueviolet;
     border-color: blueviolet;
+    border: none;
+    padding: 5px 15px;
+    transition: 200ms;
+}
+.but:hover{
+    background-color: rgb(52, 0, 101);
+    color: white;
 }
 .divresto{
     display: flex;
@@ -64,6 +79,7 @@ flex-wrap: wrap;
 .divimg{
     display: flex;
     flex-wrap: wrap;
+
 }
 #email{
     margin: 0px 0px 0px 65px;
